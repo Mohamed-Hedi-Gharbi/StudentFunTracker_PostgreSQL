@@ -1,0 +1,4 @@
+#! Exclure les fichiers de compilation
+*.o
+gestion_dossiers
+*.exe
