@@ -11,14 +11,17 @@ void saveToFile(){
         return;
     }
 
+    fprintf(file, "==========================================================================\n");
     //TODO: En-tête au fichier pour plus de clarté
-    fprintf(file, "%-5s %-30s %-5s %-20s %-20s\n", "N°", "Nom et Prénom", "Âge", "Note Eval 1", "Note Eval 2");
+    fprintf(file, "| %-3s | %-25s | %-3s | %-10s | %-8s |\n", "N°", "Nom et Prénom", "Âge", "Note Eval 1", "Note Eval 2");   
+    fprintf(file, "==========================================================================\n");
 
     //TODO: Sauvegarde des étudiants avec des espacements pour aligner les colonnes
     for (int i = 0; i < studentCount; i++) {
-        fprintf(file, "%-5d %-30s %-5d %-20.2f %-20.2f\n", 
+        fprintf(file, "| %-2d | %-24s | %-3d | %-11.2f | %-11.2f |\n", 
                 i + 1, students[i].name, students[i].age, students[i].eval1, students[i].eval2);
     }
+    fprintf(file, "==========================================================================\n");
 
     fclose(file);
     printf("Dossiers sauvegardés avec succés.\n");

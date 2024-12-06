@@ -75,7 +75,7 @@ void searchStudent() {
     for (int i = 0; i < studentCount; i++) {
         if (strstr(students[i].name, searchName) != NULL) {
             if (!found) {
-                // Affichage de l'en-tête avec des bordures alignées
+                //? Affichage de l'en-tête avec des bordures alignées
                 printf("\n==========================================================================\n");
                 printf("| %-3s | %-25s | %-3s | %-10s | %-10s |\n", 
                        "N°", "Nom et Prénom", "Âge", "Eval Num 1", "Eval Num 2");
