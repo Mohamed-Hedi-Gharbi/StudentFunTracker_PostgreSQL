@@ -10,3 +10,13 @@
 
 #* Dossier de build
 build/
+
+#* Binaires ou exécutables
+bin/
+
+#* Fichiers de configuration sensibles
+.env
+
+
+#* Fichiers spécifiques à certains éditeurs
+.vscode/

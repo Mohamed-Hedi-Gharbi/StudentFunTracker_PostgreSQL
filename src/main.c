@@ -11,6 +11,11 @@ int main(){
     //? Connexion à la base de données PostgreSQL 
     connect_to_database();
 
+    if (conn == NULL || PQstatus(conn) != CONNECTION_OK) {
+        fprintf(stderr, "Erreur: Impossible de se connecter à la base de données : %s\n", PQerrorMessage(conn));
+        return EXIT_FAILURE;
+    }
+
     char choice;
 
     do{

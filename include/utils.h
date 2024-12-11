@@ -15,4 +15,8 @@ int     getPositiveInt(const char *message);
 float   getValidFloat(const char *message);
 void    printSeparator();
 
+//* Fonction pour charger le fichier .env
+void load_env_file(const char *filename, char **db_name, char **db_user, char **db_password);
+
+
 #endif
