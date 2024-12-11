@@ -1,9 +1,16 @@
 #include <stdio.h>
-#include "student.h"
-#include "utils.h"
+#include <stdlib.h>
+#include <libpq-fe.h>
+
+#include "../include/student.h"
+#include "../include/utils.h"
 
 
 int main(){
+
+    //? Connexion à la base de données PostgreSQL 
+    connect_to_database();
+
     char choice;
 
     do{
@@ -32,7 +39,10 @@ int main(){
         default:  printf("Choix invalide, réesayez.\n");
         }
     } while (choice != 'q');
+
+    //!? Déconnexion de la base de données PostgreSQL
+    disconnect_from_database(); 
+
     
-    freeStudentMemory(&students, &studentCount);
     return 0;
 }

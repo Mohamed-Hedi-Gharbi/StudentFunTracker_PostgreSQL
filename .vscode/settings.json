@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "libpq-fe.h": "c",
+        "student.h": "c",
+        "utils.h": "c"
+    }
+}

@@ -1,4 +1,12 @@
-#! Exclure les fichiers de compilation
+#* Fichiers compilés
 *.o
-gestion_dossiers
+*.out
 *.exe
+
+#* Fichiers temporaires
+*.swp
+*.swo
+*.bak
+
+#* Dossier de build
+build/
