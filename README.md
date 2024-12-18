@@ -149,8 +149,8 @@ Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
 
 ## 👨‍💻 Auteur
 
-- **Mohamed Hedi Gharbi**  
-  [GitHub](https://github.com/Mohamed-Hedi-Gharbi)  
+- **Mohamed Hedi Gharbi[GitHub](https://github.com/Mohamed-Hedi-Gharbi)**  
+    
 - **Eya Gasmi**
   [GitHub](https://github.com/eyagasmi)
 ---
