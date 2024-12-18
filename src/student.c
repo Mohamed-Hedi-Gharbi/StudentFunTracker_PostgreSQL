@@ -5,6 +5,7 @@
 
 #include "../include/student.h"
 #include "../include/utils.h"
+#include "../include/database.h"
 
 
 //TODO: Ajouter un étudiant dans la base de données PostgreSQL

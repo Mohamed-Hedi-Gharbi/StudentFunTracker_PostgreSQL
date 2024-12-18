@@ -5,6 +5,7 @@
 
 #include "../include/student.h"
 #include "../include/utils.h"
+#include "../include/database.h"
 
 //TODO: Sauvegarder les étudiants dans la base de données PostgreSQL
 void saveToFile() {

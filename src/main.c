@@ -4,6 +4,7 @@
 
 #include "../include/student.h"
 #include "../include/utils.h"
+#include "../include/database.h"    
 
 
 int main(){
