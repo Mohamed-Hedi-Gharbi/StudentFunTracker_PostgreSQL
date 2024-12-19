@@ -114,9 +114,11 @@ Voici un exemple d'ajout et d'affichage d'un apprenant :
 
 1. **Ajouter un apprenant** :  
    ```
-   Veuillez entrer le nom : Mohamed Hedi Gharbi  
-   Veuillez entrer l'âge : 22  
-   Veuillez entrer les notes (eval1, eval2) : 15.00, 19.00  
+   Nom et Prénom: Mohamed Hedi Gharbi
+   Âge: 22
+   Note 1: 18
+   Note 2: 17
+   Dossier crée avec succés ! 
    ```
 2. **Afficher les dossiers** :  
    ```
@@ -155,3 +157,9 @@ Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
 ## 🧩 Remerciements
 
 Merci à toutes les personnes qui ont contribué directement ou indirectement à la réalisation de ce projet.
+
+---
+
+### ⭐ Si ce projet vous est utile, n'oubliez pas de laisser une étoile sur GitHub !  
+
+--- 
