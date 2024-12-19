@@ -24,7 +24,7 @@ La structure du projet est organisée comme suit :
 ├── include/              # Fichiers d'en-tête (.h)
 │   ├── student.h
 │   ├── utils.h
-│   └── file_operations.h
+│   └── database.h
 │
 ├── src/                  # Fichiers sources (.c)
 │   ├── main.c
@@ -150,9 +150,6 @@ Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
 ## 👨‍💻 Auteur
 
 - **Mohamed Hedi Gharbi [GitHub](https://github.com/Mohamed-Hedi-Gharbi)**  
-    
-- **Eya Gasmi**
-  [GitHub](https://github.com/eyagasmi)
 ---
 
 ## 🧩 Remerciements
